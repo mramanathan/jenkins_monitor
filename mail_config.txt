@@ -1,0 +1,5 @@
+[ smtp ]
+mail_server  = 'org.mailserver.com'
+mail_port    = 25
+from_address = 'health_check.donotreply@org.domainname.com'
+notify_team  = 'devops-team-name@org.domainnmame.com'

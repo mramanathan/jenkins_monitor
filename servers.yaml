@@ -1,0 +1,22 @@
+---
+servers: [
+  {
+    active: true,
+    host: hostname-goes-here,
+    # https://pyyaml.org/wiki/YAMLColonInFlowContext
+    url: "https://FQDN-hostname.goeshere",
+    port: 8443
+  },
+  {
+    active: true,
+    host: another-hostname-goes-here,
+    url: "https://another-FQDN-hostname.goeshere",
+    port: 8443
+  },
+  {
+    active: false,
+    host: onemore-hostname-goes-here,
+    url: "https://onemore-FQDN-hostname.goeshere",
+    port: 8443
+  }
+]
